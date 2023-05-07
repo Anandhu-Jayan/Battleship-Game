@@ -1,0 +1,29 @@
+.cells{
+    display:inline-block;
+    width:90px;
+    height:90px;
+    margin:5px 2.5px 2.5px 5px;
+    background-color: tomato;
+    border:thin solid black;
+    border-radius: 3%;
+    background-size:cover; 
+}
+.parent{
+   
+    margin:auto;
+    width:400px;
+    height: 411px;
+    background-color:  #DEDEDE;
+    padding:0px;
+    border-radius: 2%;
+   
+    
+}
+#main-head{
+    text-align: center;
+}
+input{
+    display: block;
+    margin:30px auto;
+    background-color:cyan;
+}
