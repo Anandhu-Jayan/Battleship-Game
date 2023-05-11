@@ -17,7 +17,7 @@ parentElement.addEventListener("click",(event)=>{
             event.target.style.cssText="background-image:url('https://i.ibb.co/xjPrzfb/waves.jpg');";
     }
 })
-let rButton=document.querySelector("input");
+let rButton=document.querySelector("button");
 rButton.onclick=()=>{
     let cells=document.querySelectorAll(".cells");
     for(let cell of cells){

@@ -1,29 +1,43 @@
+*{
+    font-family:Helvetica, sans-serif;
+}
+h2{
+    font-size: xx-large;
+    color:#0a557f ;
+}
 .cells{
     display:inline-block;
     width:90px;
     height:90px;
     margin:5px 2.5px 2.5px 5px;
     background-color: tomato;
-    border:thin solid black;
+    border:medium solid #0a557f;
     border-radius: 3%;
     background-size:cover; 
 }
 .parent{
-   
+    
     margin:auto;
-    width:400px;
-    height: 411px;
+    width:410px;
+    height: 421px;
     background-color:  #DEDEDE;
-    padding:0px;
     border-radius: 2%;
+    padding: 20px;
+    border:solid thick #0a557f;
    
     
 }
 #main-head{
     text-align: center;
 }
-input{
+button{
     display: block;
     margin:30px auto;
-    background-color:cyan;
+    background-color:#4dc3f3;
+    background-color:#0a557f;
+    color: aliceblue;
+    padding:10px 30px ;
+    border-radius: 9%;
+    font-size: medium;
+    
 }
