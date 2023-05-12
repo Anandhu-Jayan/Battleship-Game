@@ -1,9 +1,17 @@
-*{
-    font-family:Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body{
+   font-family: 'Electrolize', sans-serif;
+        
 }
-h2{
-    font-size: xx-large;
+#main-head{
+    font-size: xxx-large;
+    
+    font-weight:400px ;
     color:#0a557f ;
+    height:30px ;
+    font-family: 'Electrolize', sans-serif;
+
 }
 .cells{
     display:inline-block;
@@ -21,8 +29,9 @@ h2{
     width:410px;
     height: 421px;
     background-color:  #DEDEDE;
-    border-radius: 2%;
+
     padding: 20px;
+    border-radius: 2%;
     border:solid thick #0a557f;
    
     
@@ -30,14 +39,74 @@ h2{
 #main-head{
     text-align: center;
 }
-button{
+#reset{
+    font-family: 'Electrolize', sans-serif;
     display: block;
     margin:30px auto;
-    background-color:#4dc3f3;
     background-color:#0a557f;
     color: aliceblue;
     padding:10px 30px ;
-    border-radius: 9%;
+    border-radius: 5px;
     font-size: medium;
+   
+    
+    
+}
+.rules{
+    width:600px;
+    height: 150px;
+    margin:auto auto 35px ;
+
+    
+}
+#rulesHead{
+    text-align: center;
+    
+}
+.popup{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255,.5);
+    top: 270px;
+    left:0;
+    right: 0;;
+    margin:auto;
+    width:410px;
+    height: 421px;
+    padding: 18.2px;
+   
+}
+#playagain{
+     font-family: 'Electrolize', sans-serif;
+    display: inline-block;
+    position: absolute;
+    top:300px;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: 0 auto;
+    background-color:#0a557f;
+    color: aliceblue;
+    padding:10px 30px ;
+    border-radius: 5px;
+    font-size: medium;
+}
+#result{
+    isplay:block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 100px;
+    text-align: center;
+    font-size: 70px;
+    color:#0a557f ;
+    
+}
+#rulelist{
+    border: solid thin tomato;
+    color:#0a557f;
+    border-radius: 4px;
+    padding:8px 5px 7px 10px ;
+    list-style-position: inside;
     
 }
